@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="4O$v~%xyY/N3ew]i4$Ty" x="-272" y="-332"></block><block type="device_clear_display" id="]7P8i:]k6@3}x+xY24[l" disabled="true" x="612" y="-363"></block><block type="device_print_message" id="JnwSvVJIOT[dK*Ywq2|I" disabled="true" x="121" y="-281"><value name="text"><shadow type="text" id="G;=|,@y],Zn*T[RPz|mJ" disabled="true"><field name="TEXT">MICRO BIT</field></shadow></value></block><block type="device_button_event" id="x2S[+CaBebk:lERXUjAa" x="-262" y="-202"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="controls_repeat_ext" id="/Huil4jwcf_fOQ0R#,95"><value name="TIMES"><shadow type="math_whole_number" id="5Yt=LSg(QY/6x=NL#-^Z"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="D:eJ;MwPaZ.gubBe^UUt"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_pause" id="BY-sxA`CB)^coWr{}okP"><value name="pause"><shadow type="timePicker" id="HLUFl`8t+EIm_F1nl@DZ"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="p^aXVVPT+migY3v!yd.!"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></statement></block></statement></block><block type="device_button_event" id="zKA@ZD9^WIDsC_|?I[mw" x="503" y="-231"><field name="NAME">Button.A</field></block><block type="device_show_leds" id="LMjp=wq9$INwdFx%_l(." disabled="true" x="229" y="-201"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block><block type="device_while" id="yV{!A}Qco^?HVat@KSmM" disabled="true" x="-22" y="-125"><breakpoint></breakpoint><value name="COND"><shadow type="logic_boolean" id="nJu{enL%0EFNDzsd#$t$" disabled="true"><field name="BOOL">FALSE</field></shadow></value></block><block type="device_while" id="z|UAioGgeT*/8~XsUixT" disabled="true" x="156" y="-122"><value name="COND"><shadow type="logic_boolean" id=":ClVTp;zb$S|y*0M]9ux" disabled="true"><field name="BOOL">TRUE</field></shadow></value></block><block type="controls_if" id="8u0m043fYX}DDL{%~x]{" disabled="true" x="386" y="-56"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="/?itu3{)[CW)03M=JbS_" disabled="true"><field name="NAME">Button.A</field></block></value></block><block type="device_forever" id="Y|R1*J3+RuV$McYEmsRY" x="0" y="0"></block><block type="device_gesture_event" id="d9{9f1.^^;!AKr#:gFM!" x="212" y="45"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_number" id="j$7%l`~ypRl%Hw36+W.u"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="%o:=`SSrNG-=]Nh=dpto"><value name="min"><shadow type="math_number" id=";U]/.,BBZbTf1g%H4ZV?"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="W{3lr:m5mjjA6[^(OrXU"><field name="NUM">6</field></shadow></value></block></value></block></statement></block><block type="input_logo_event" id="tr(Itdv+-c0p/5z39F-]" x="426" y="268"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="device_clear_display" id="}LXy+/e%Yw{D4gQg)~ic"></block></statement></block></xml>
